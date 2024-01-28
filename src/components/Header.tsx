@@ -31,7 +31,7 @@ const Header = () => {
           <div className="flex items-center">
             <Sheet>
               <SheetTrigger>
-                <Menu className="h-6 md:hidden w-6 border border-red-800 right-0" />
+                <Menu className="h-6 md:hidden w-6 right-0" />
               </SheetTrigger>
               <SheetContent side="left" className="w-[300px] sm:w-[400px]">
                 <nav className="flex flex-col gap-4">
