@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" h-[75vh] w-screen mt-5 flex flex-col items-center gap-5">
+    <div className=" w-screen mt-5 flex flex-col items-center gap-5 ">
       <div className="">
         <Image src="/profile.JPG" alt="profile" width={400} height={400} className="rounded-xl" />
       </div>
