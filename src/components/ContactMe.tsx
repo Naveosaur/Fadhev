@@ -7,8 +7,8 @@ const ContactMe = () => {
     <div className="py-10 mt-10" id="contact_me">
       <div>
         <div className="flex flex-col mx-5">
-          <h1 className="text-xl font-bold ">Let's work together on your next project.</h1>
-          <p className="text-gray-900 dark:text-gray-400 mt-2">I'm always happy to hear about exciting opportunities, join in interesting conversations, and build valuable connections. Let's connect!</p>
+          <h1 className="text-xl font-bold ">Let's connect and collaborate</h1>
+          <p className="text-gray-900 dark:text-gray-400 mt-2">I would be hugely interested contributing myself in any exciting opportunities, joining interesting discussions, and building valuable connections. Let's connect!</p>
         </div>
         {/* <div className="mt-10">
           <p>Contact me via email</p>
