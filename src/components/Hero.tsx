@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { MoveRight, Download } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -15,8 +16,10 @@ const Hero = () => {
           Full-Stack Web Developer with three years of experience in web development, UI design, and product management specializing in building exceptional digital experiences for your business needs.{" "}
         </p>
         <div className="mt-10 flex gap-5">
-          <Button className="rounded-full text-lg font-bold ">
-            Works <MoveRight className="ml-2" size={20} />
+          <Button className="rounded-full">
+            <Link href="#works" className=" text-lg font-bold flex items-center">
+              Works <MoveRight className="ml-2" size={20} />
+            </Link>
           </Button>
           <Button variant="outline" className="rounded-full text-lg font-bold ">
             Resume <Download className="ml-2" size={20} />

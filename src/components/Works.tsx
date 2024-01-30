@@ -6,8 +6,8 @@ import { PanelsTopLeft, Github } from "lucide-react";
 
 const Works = () => {
   return (
-    <div className="  w-screen mt-10 ">
-      <h2 className="text-xl font-bold mx-5">Works.</h2>
+    <div className=" py-10 w-screen mt-10" id="works">
+      <h1 className="text-xl font-bold mx-5">Works.</h1>
       <p className="text-gray-900 dark:text-gray-400 mx-5">some of the works I've been involved with</p>
 
       <div className="mt-5 flex justify-center">

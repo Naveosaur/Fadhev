@@ -1,3 +1,4 @@
+import ContactMe from "@/components/ContactMe";
 import Hero from "@/components/Hero";
 import Works from "@/components/Works";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <Works />
+      <ContactMe />
     </>
   );
 }

@@ -12,12 +12,12 @@ const routes = [
     label: "Home.",
   },
   {
-    href: "/",
-    label: "Skills.",
+    href: "#works",
+    label: "Works.",
   },
   {
-    href: "/",
-    label: "Works.",
+    href: "#contact_me",
+    label: "Contact Me.",
   },
 ];
 
