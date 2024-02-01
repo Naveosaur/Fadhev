@@ -52,7 +52,7 @@ const Header = () => {
           <div className="flex justify-between">
             <nav className="mx-6 flex items-center space-x-4 lg:space-x-6 hidden md:block ">
               {routes.map((route, i) => (
-                <Button asChild variant="ghost">
+                <Button asChild variant="ghost" key={i}>
                   <Link key={i} href={route.href} className="text-lg font-medium transition-colors">
                     {route.label}
                   </Link>

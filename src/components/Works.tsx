@@ -30,7 +30,7 @@ const Works = () => {
       <p className="text-gray-900 dark:text-gray-400 mx-5">Some of the works and projects that i have been involved with</p>
 
       {projects.map((project, i) => (
-        <div className="mt-5 py-5 flex justify-center " key={i}>
+        <div className="mt-5 py-5 flex justify-center" key={i}>
           <Card className="w-[400px] flex flex-col items-center">
             <CardContent className="bg-slate-100">
               <Image src={project.image} alt="dummy" width={400} height={250} />
