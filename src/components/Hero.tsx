@@ -19,12 +19,14 @@ const Hero = () => {
           </p>
           <div className="mt-10 flex gap-5">
             <Button className="rounded-full">
-              <Link href="#works" className=" text-lg font-bold flex items-center">
+              <Link href="#works" className=" text-xl font-bold flex items-center">
                 Works <MoveRight className="ml-2" size={20} />
               </Link>
             </Button>
-            <Button variant="outline" className="rounded-full text-lg font-bold ">
-              Resume <Download className="ml-2" size={20} />
+            <Button variant="outline" className="rounded-full" asChild>
+              <Link href="./resume.pdf" className=" text-xl font-bold flex items-center" target="_blank" download>
+                Resume <Download className="ml-2" size={20} />
+              </Link>
             </Button>
           </div>
         </div>
