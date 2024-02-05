@@ -23,13 +23,13 @@ const projects = [
     website: "",
     github: "https://github.com/Naveosaur/HSFS-Project-Wedding",
   },
-  {
-    image: "/Wahanime.png",
-    name: "Wahanime",
-    description: "An anime streaming website. Built using React.js, TailwindCSS  and integrating an external API from consumet API.",
-    website: "",
-    github: "https://github.com/Naveosaur/Wahanime",
-  },
+  // {
+  //   image: "/Wahanime.png",
+  //   name: "Wahanime",
+  //   description: "An anime streaming website. Built using React.js, TailwindCSS  and integrating an external API from consumet API.",
+  //   website: "",
+  //   github: "https://github.com/Naveosaur/Wahanime",
+  // },
   {
     image: "/ExperimentalBooks.png",
     name: "Experimental - API Books And Author",
@@ -45,7 +45,7 @@ const Works = () => {
       <div className=" py-10 mt-10 " id="works">
         <div className="">
           <div className="">
-            <h1 className="text-xl font-bold mx-5  md: md:text-2xl">Works</h1>
+            <h1 className="text-xl font-bold mx-5  md: md:text-2xl">Projects</h1>
             <p className="text-md font-medium text-gray-900 dark:text-gray-400 mx-5">Some of the works and projects that i have been involved with</p>
           </div>
         </div>
