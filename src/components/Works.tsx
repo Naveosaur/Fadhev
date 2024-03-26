@@ -52,38 +52,38 @@ const Works = () => {
 
         <div className="flex flex-wrap flex-col items-center mt-5 space-y-10 md:flex-row md:gap-5 md:items-baseline">
           {projects.map((project, i) => (
-            <Card className="w-[400px] flex flex-col items-center" key={i}>
+            <Card className=" flex flex-col items-center h-[600px]" key={i}>
               <CardContent className="bg-slate-100">
                 <Image src={project.image} alt="dummy" width={400} height={250} />
               </CardContent>
 
-              <CardHeader className=" w-[400px]">
+              <CardHeader className=" w-[400px] h-[200px] gap-2">
                 <CardTitle>{project.name}</CardTitle>
-                <CardDescription className="">{project.description}</CardDescription>
+                <CardDescription>{project.description}</CardDescription>
+              </CardHeader>
 
-                <div className="flex justify-center gap-5 pt-5">
-                  {!project.website ? (
-                    <Button variant={"outline"} disabled>
-                      <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
-                      Website
-                    </Button>
-                  ) : (
-                    <Button variant={"outline"} asChild>
-                      <Link href={project.website}>
-                        <PanelsTopLeft size={20} className="mr-2" />
-                        Website
-                      </Link>
-                    </Button>
-                  )}
-
+              <div className="flex justify-center gap-5 pt-5">
+                {!project.website ? (
+                  <Button variant={"outline"} disabled>
+                    <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
+                    Website
+                  </Button>
+                ) : (
                   <Button variant={"outline"} asChild>
-                    <Link rel="stylesheet" href={project.github}>
-                      <Github size={20} className="mr-2" />
-                      Github
+                    <Link href={project.website}>
+                      <PanelsTopLeft size={20} className="mr-2" />
+                      Website
                     </Link>
                   </Button>
-                </div>
-              </CardHeader>
+                )}
+
+                <Button variant={"outline"} asChild>
+                  <Link rel="stylesheet" href={project.github}>
+                    <Github size={20} className="mr-2" />
+                    Github
+                  </Link>
+                </Button>
+              </div>
             </Card>
           ))}
         </div>
@@ -91,7 +91,5 @@ const Works = () => {
     </Container>
   );
 };
-
-// border border-red-800
 
 export default Works;

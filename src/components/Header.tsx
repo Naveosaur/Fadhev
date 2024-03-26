@@ -9,15 +9,15 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 const routes = [
   {
     href: "/",
-    label: "Home.",
+    label: "Home",
   },
   {
     href: "#works",
-    label: "Works.",
+    label: "Works",
   },
   {
     href: "#contact_me",
-    label: "Contact Me.",
+    label: "Contact Me",
   },
 ];
 
