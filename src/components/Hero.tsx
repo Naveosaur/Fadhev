@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <Container>
-      <div className="border mt-5 p-5 flex flex-col items-center gap-10 md:flex-row-reverse md:justify-center">
+      <div className="mt-5 p-5 flex flex-col items-center gap-10 md:flex-row-reverse md:justify-center">
         <div className="">
           <Image src="/profile.JPG" alt="profile" width={500} height={500} className="rounded-xl" />
         </div>
