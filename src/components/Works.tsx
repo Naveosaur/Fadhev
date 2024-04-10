@@ -23,19 +23,26 @@ const projects = [
     website: "",
     github: "https://github.com/Naveosaur/HSFS-Project-Wedding",
   },
-  // {
-  //   image: "/Wahanime.png",
-  //   name: "Wahanime",
-  //   description: "An anime streaming website. Built using React.js, TailwindCSS  and integrating an external API from consumet API.",
-  //   website: "",
-  //   github: "https://github.com/Naveosaur/Wahanime",
-  // },
+  {
+    image: "/Wahanime.png",
+    name: "Wahanime",
+    description: "An anime streaming website. Built using React.js, TailwindCSS  and integrating an external API from consumet API.",
+    website: "",
+    github: "https://github.com/Naveosaur/Wahanime",
+  },
   {
     image: "/ExperimentalBooks.png",
     name: "Experimental - API Books And Author",
     description: "In Progress - Golang, Mux, Viper, Gorm",
     website: "",
     github: "https://github.com/Naveosaur/go_rest_mysql",
+  },
+  {
+    image: "/ExperimentalBooks.png",
+    name: "Wais",
+    description: "As Frontend dev where i developed a somekind of hris ReactJS, CoreUI, Bootstrap",
+    website: "",
+    github: "",
   },
 ];
 

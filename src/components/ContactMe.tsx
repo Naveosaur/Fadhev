@@ -17,9 +17,9 @@ const ContactMe = () => {
           {/* <div className="mt-10">
           <p>Contact me via email</p>
         </div> */}
-          <div className="mt-10 mx-5  ">
+          <div className="mt-10 mx-5 flex items-center flex-col md:items-start">
             <p className="font-semibold text-lg">Follow me on social media</p>
-            <div className="py-2 flex gap-5 flex">
+            <div className="py-2 flex gap-5 ">
               <Button variant={"outline"} className="rounded-full" asChild>
                 <Link href="https://www.instagram.com/evfadh/" target="_blank">
                   <Instagram size={20} />
